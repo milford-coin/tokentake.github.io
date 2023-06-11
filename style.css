@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #1c1c1c;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #ff00ff;
+	text-shadow: 0 0 10px #ff00ff;
+}
+
+p {
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px solid #ff00ff;
+}
+
+a:hover {
+	border-bottom: 2px solid #fff;
+}
