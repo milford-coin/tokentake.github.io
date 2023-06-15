@@ -1,7 +1,7 @@
 document.getElementById('sender').addEventListener("click", sendEmail);
 
 function GetBody() {
-  var body = "Assignee : " + document.getElementById('Assignee').value + '\n' + "Requester: " + document.getElementById('Requester').value + '\n';
+  var body = "Requester: " + document.getElementById('Requester').value + '\n';
   return body;
 };
 
