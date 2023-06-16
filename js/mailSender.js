@@ -1,6 +1,6 @@
 function mailTo()
 {
-	var subject = "Комментарий"
-	var body = document.getElementById('message').value;
-	window.location.href = "aydyn-lotta@hotmail.com?subject" + subject + "&body" + body;
+    var body = document.getElementById("Message").value;
+    var Subject = "Comment"
+    window.location.href = "mailto:aydynlotta18@gmail.com?subject="+SubjectLine+"&body="+body;
 }
